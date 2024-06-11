@@ -10,6 +10,7 @@
   },
   "scripts": {
     "test": "mocha tests/*.js",
+    "test-npm-security": "npm aodit",
     "start": "node index.js"
   }
 }
